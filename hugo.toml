@@ -1,0 +1,4 @@
+baseURL = 'https://xfce.org/'
+languageCode = 'en-us'
+title = 'Xfce Desktop Environment'
+theme = 'xfce'
