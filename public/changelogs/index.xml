@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Changelogs on Xfce Desktop Environment</title>
+    <link>http://localhost:1313/changelogs/</link>
+    <description>Recent content in Changelogs on Xfce Desktop Environment</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/changelogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Xfce 4.10 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.10/</guid>
+      <description>General For changes in the 4.10 dependecies, please look at the 4.10pre1 ChangeLog. See also the 4.10pre1 and 4.10pre2 ChangeLog for major changes in the 4.10 release. Development Tools (xfce4-dev-tools) Bump glib dependency to 2.24. Utility Library (libxfce4util) Translation updates: Romanian, Chinese (China). Widget Library (libxfce4ui) Update contributor credits. Update translators, week 15 and 16. Enable startup notification in xfce4-appfinder shortcuts. Check abicheck.sh to be more portable (bug #8702). Translation updates: English (United Kingdom), Spanish (Castilian), Galician, Japanese, Kazakh, Korean, Dutch (Flemish), Portuguese, Portuguese (Brazilian), Chinese (China).</description>
+    </item>
+    <item>
+      <title>Xfce 4.10.pre2 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.10pre2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.10pre2/</guid>
+      <description>General For changes in the 4.10 dependecies, please look at the 4.10pre1 ChangeLog. Development Tools (xfce4-dev-tools) Fix license. Remove the old BM_ macros. Use ?_VERSION for special versioned binary detection (bug #8683). Never disable checks. Utility Library (libxfce4util) Bump glib to 2.24. Translation updates: German, Japanese, Korean, Portuguese. Widget Library (libxfce4ui) Update translators, week 13 and 14. Increase gtk and glib versions. Bump 4util dependency. Remove unused function prototype. Translation updates: German, Greek, Galician, Japanese, Korean, Dutch (Flemish), Polish, Portuguese, Russian, Turkish.</description>
+    </item>
+    <item>
+      <title>Xfce 4.10pre1 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.10pre1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.10pre1/</guid>
+      <description>Translation updates are not shown in the lists below.&#xA;Dependency Changes GTK+ dependency &amp;gt;= 2.20 and GLib &amp;gt;= 2.24. Libxfce4util soname changed. Garcon has a new libxfce4util dependency. Exo has a new libxfce4ui dependency. Libxfce4util only depends on glib (was gobject). Xfce-utils is not needed anymore. Functionality has been moved in xfce4-session, libxfce4ui, xfce4-appfinder or is removed. Xfce4-session does not (optionally) depend on xfce4-panel anymore. The plugin has been integrated with the actions xfce4-panel plugin.</description>
+    </item>
+    <item>
+      <title>Xfce 4.12 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.12/</guid>
+      <description>Note: the changelogs shown here are since the version of the components that shipped with Xfce 4.10.&#xA;Dependency changes GTK+ dependency &amp;gt;= 2.24 and GLib &amp;gt;= 2.30. Garcon has a new libxfce4ui dependency. Libxfce4ui has an optional dependency on GTK+3. Libxfce4util major library version was bumped, some symbols were dropped. Xfce4-panel can be optionally built against GTK+3. Xfce4-appfinder now uses GDbus instead of dbus-glib, and can be potentially built against GTK+3.</description>
+    </item>
+    <item>
+      <title>Xfce 4.14 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.14/</guid>
+      <description>Note: the changelogs shown here are since the version of the components that shipped with Xfce 4.12.&#xA;Dependency changes GTK+ dependency &amp;gt;= 3.22, GLib &amp;gt;= 2.42 and GDBus. Exo has an optional dependency on GTK2. Garcon has an optional dependency on GTK2. Libxfce4ui has an optional dependency on GTK2. Xfce4-panel has an optional dependency on GTK2. Development Tools (xfce4-dev-tools) Remove svn support in xdt-autogen Update xdt-csource with latest exo-csource modifications No -Wshadow flag for enable_debug=full (Bug #11637) Utility Library (libxfce4util) Feature: Add Python code example Feature: Add support for GOBJECT-INTROSPECTION (Bug #12159) Feature: Add VAPIGEN for vala binding generation Feature: Add xfce_kiosk_get_type to abi symbols General: Better documentation processing General: Migrate away from sgml templates for documentation Fix: Add support for rc files as symlinks Fix: Allow everyone to build introspection files (Bug #13638) Fix: Allow language-specific keys before language-neutral ones (Bug #13979) Fix: Avoid excessive type-casting Fix: Abicheck to handle ppc64 architecture Fix: Documentation warnings Fix: GObject Introspection language bindings Fix: Some autotools warnings, default debug to yes Fix: Some gtk-doc warnings Fix: Make sure introspection users find the header file in the correct spot Fix: Make sure our gir/vapi gets the Xfce namespace, and not &amp;ldquo;xfce&amp;rdquo; Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch (Flemish), English (Australia), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Panjabi, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</description>
+    </item>
+    <item>
+      <title>Xfce 4.16 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.16/</guid>
+      <description>Note: the changelogs shown here are since the version of the components that shipped with Xfce 4.14.&#xA;Dependency changes Gtk &amp;gt;= 3.22, GLib and GDBus &amp;gt;= 2.50. Add libgtop Remove Gtk2 support Development Tools (xfce4-dev-tools) Add several helpers to gather release notes etc and actually perform releases Add xfce-build Docker container (which is also used in GitLab CI) New macro XDT_VERSION_INIT which takes care of setting up the version numbering xdt-csource now replace exo-csource Utility Library (libxfce4util) Update configure.</description>
+    </item>
+    <item>
+      <title>Xfce 4.18 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.18/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.18/</guid>
+      <description>Note: The changelogs shown here are since the version of the components that shipped with Xfce 4.16.&#xA;Dependency changes glib-2.0 &amp;gt;= 2.66 - Same version for gmodule-2.0, gobject-2.0, gthread-2.0, gio-2.0 and gdbus gtk &amp;gt;= 3.24 libcairo &amp;gt;= 1.16 gdk-pixbuf-2.0 &amp;gt;= 2.40 gobject-introspection &amp;gt;= 1.66 Development Tools (xfce4-dev-tools) Add new libsoup3 to the builder xfce-do-release: unification of update version &amp;lsquo;sed&amp;rsquo; command xfce-do-release: match multiple spaces for git version replace Warn about GLib functions newer than the checked GLib version Drop the test altogether xdt-autogen: Fix deprecation warning from grep 3.</description>
+    </item>
+    <item>
+      <title>Xfce 4.2 RC2 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.1.99.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.1.99.2/</guid>
+      <description>General Updated Portuguese translation (thanks to Adriano winter Bess) Numerous documentation fixes Window Manager (xfwm4) Opacity is properly restored after a move/resize Wrap workspaces now works when compositor is enabled Solaris fixes Desktop Manager (xfdesktop) Fix bug where sticky windows aren&amp;rsquo;t shown in the window list Removed the add/remove workspace option for stability reasons Panel (xfce4-panel) Fix text selection being lost when validating icon in item dialog File Manager (xffm) A fix for the problem with toggling hidden files on/off Volume Control (xfce4-mixer) Solaris fixes Taskbar (xftaskbar) Fixed updating position and alignment bug </description>
+    </item>
+    <item>
+      <title>Xfce 4.2 RC2 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.1.99.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.1.99.3/</guid>
+      <description>General Updated translations Updated screenshots for documentation Libraries (lib*) Improve icon theme handling; make sure to always find default icons, properly escape settings values when saving to XML Window Manager (xfwm4) Updated default theme KDE system tray support fixed (bug #577, bug #596 and bug #597) Improvements and fixes to the compositing manager (bug #552) Fixes for gtk+-2.6 in setting plugin Various fixes Desktop Manager (xfdesktop) Fixes for gtk 2.6 Improve menu cache handling Add back to window list menu the options to add or remove workspaces Panel (xfce4-panel) Fix type mismatch when writing backup files (fixes infinite loop on non-x86; patch by Michele Baldessari) Fix edge snapping for very big panels Properly set dock type hint Settings Manager (xfce-mcs-manager) Fixes for gtk 2.</description>
+    </item>
+    <item>
+      <title>Xfce 4.2.0 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.2.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.2.0/</guid>
+      <description>General Minimum required GTK version is 2.2 (2.4 is recommended). Overall usability improvements Improved Xinerama support. Improved support for Cygwin. Support for partial struts in xfwm4, xftaskbar4 and xfce4-panel. Freedesktop specifications compliance for menu and icons themes. New file locations based on the Freedesktop.org XDG Basedir Specification (all Xfce settings are now stored under the ~/.config/xfce4/ directory). New and updated translations. Support for kiosk mode, in which the allowed user actions can be restricted in xfce4-session, xfce4-panel, and xfdesktop (see included doc/README.</description>
+    </item>
+    <item>
+      <title>Xfce 4.2.1 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.2.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.2.1/</guid>
+      <description>General Don&amp;rsquo;t use G_INLINE_FUNC in the source code, which fixes several weird build errors. Libraries (lib*) Libxfce4util: Fix a problem with NFS mounted home directories in Solaris (bug #724) Window Manager (xfwm4) Speed improvement with GLX applications Fix Alt-Tab not focusing a window alone on a desktop (bug #700) Kbd shortcuts don&amp;rsquo;t work when caps lock is enabled (bug #689) Window not showing when compositor is enabled (bug #694) Documentation on command line option to enable/disable xfwm4 compositor (bug #611) Improve caching of frame elements Fix default theme for dark gtk themes (such as Xfce-dusk) Various focusing issues fixed Optimizations of move/resize operations (bug #761) Auto maximize windows larger that screen size.</description>
+    </item>
+    <item>
+      <title>Xfce 4.2.2 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.2.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.2.2/</guid>
+      <description>General New and updated translations: bn_IN, ca, cs, el, el_GR, eo, eu, fi, hu, ja, ko, mr, pl, ro, vi. New french documentation. Libraries (lib*) Libxfcegui4: Check ~/.local/share/pixmaps/ as a fallback (bug #731). Window Manager (xfwm4) Fix mouse buttons being left ungrabbed when focus was transfered to an unmanaged window. Document hidden option &amp;quot;workspace_scroll&amp;quot; (bug #948). Various focus issues (bug #759, bug #869, bug #899, bug #905, bug #924, bug #931).</description>
+    </item>
+    <item>
+      <title>Xfce 4.2.3 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.2.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.2.3/</guid>
+      <description>General New languages (in ISO 639 language code order): Afrikaans (af), Armenian (hy), Slovenian (sl). New documentation: Hebrew (he). Updated languages (in ISO 639 language code order): Belorussian (be), Catalan (ca), German (de), Greek (el), Esperanto (eo), Basque (eu), Finnish (fi), Hebrew (he), Hungarian (hu), Italian (it), Japanese (ja), Korean (ko), Lithuanian (lt), Dutch (nl), Polish (pl), Brazilian Portuguese (pt_BR), Romanian (ro), Swedish (sv), Traditional Chinese (zh_TW). Libraries (lib*) Add gui-enum-types to make pyxfce enums work nicer.</description>
+    </item>
+    <item>
+      <title>Xfce 4.2.3.1 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.2.3.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.2.3.1/</guid>
+      <description>General New languages (in ISO 639 language code order): Afrikaans (af), Armenian (hy), Slovenian (sl). New documentation: Hebrew (he). Updated languages (in ISO 639 language code order): Belorussian (be), Catalan (ca), German (de), Greek (el), Esperanto (eo), Basque (eu), Finnish (fi), Hebrew (he), Hungarian (hu), Italian (it), Japanese (ja), Korean (ko), Lithuanian (lt), Dutch (nl), Polish (pl), Brazilian Portuguese (pt_BR), Romanian (ro), Swedish (sv), Traditional Chinese (zh_TW). Libraries (lib*) Add gui-enum-types to make pyxfce enums work nicer.</description>
+    </item>
+    <item>
+      <title>Xfce 4.2.3.2 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.2.3.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.2.3.2/</guid>
+      <description>General New languages (in ISO 639 language code order): Afrikaans (af), Armenian (hy), Slovenian (sl). New documentation: Hebrew (he). Updated languages (in ISO 639 language code order): Belorussian (be), Catalan (ca), German (de), Greek (el), Esperanto (eo), Basque (eu), Finnish (fi), Hebrew (he), Hungarian (hu), Italian (it), Japanese (ja), Korean (ko), Lithuanian (lt), Dutch (nl), Polish (pl), Brazilian Portuguese (pt_BR), Romanian (ro), Swedish (sv), Traditional Chinese (zh_TW). Libraries (lib*) Add gui-enum-types to make pyxfce enums work nicer.</description>
+    </item>
+    <item>
+      <title>Xfce 4.4 beta 2 (4.3.90.2) Changelog</title>
+      <link>http://localhost:1313/changelogs/4.3.90.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.3.90.2/</guid>
+      <description>Utility Library (libxfce4util) Fix deletion of entries from XfceRc objects. Reduce the number of PLT symbols. Translatable license texts. Plug memory leaks. Widget Library (libxfcegui4) Fix bug with desktop layout on x86_64. Fix bug in system tray with some apps (e.g. krusader, bug #1836). New titled dialog widget, to use for the settings dialogs. Extension Library (exo) See the release notes at http://thunar.xfce.org/news.html. Window Manager (xfwm4) Get rid of libXpm dependency by implementing an XPM loader with color symbol substitution.</description>
+    </item>
+    <item>
+      <title>Xfce 4.4 rc 1 (4.3.99.1) Changelog</title>
+      <link>http://localhost:1313/changelogs/4.3.99.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.3.99.1/</guid>
+      <description>Utility Library (libxfce4util) Enable compilation with compilers other than gcc (bug #1851). Updated translations: Fabian Nowak (de). New translations: Leandro Regueiro (gl), Dimitri Gogelia (ka). Widget Library (libxfcegui4) Use the slice allocator where appropriate and g_type_class_add_private() (bug #2087). Add delay for switching workspace when dragging something over the pager (bug #838). Allow to use flag buttons for the tasklist. Extension Library (exo) See the release notes at http://thunar.xfce.org/news.html. Settings Manager Plugins (xfce-mcs-plugins) Use GtkComboBox instead of GtkOptionMenu in the user interface settings (bug #2134).</description>
+    </item>
+    <item>
+      <title>Xfce 4.4 rc 2 (4.3.99.2) Changelog</title>
+      <link>http://localhost:1313/changelogs/4.3.99.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.3.99.2/</guid>
+      <description>Widget Library (libxfcegui4) Plug memory leaks and reduce relocations. (bug #2377). Avoid sending spurious icon geometry updates (bug #2306). Fix handling of quoted commands (bug #2276). Clock widget enhancements (bug #2264). Locate the task action menu on the correct screen. Don&amp;rsquo;t show urgent button on all workspaces. Stop blinking an urgent tasklist item after it has blinked 10 times, but leave it highlighted until the urgent hint is gone. Extension Library (exo) Added a &amp;ndash;working-directorycommand line switch to exo-open, which primarily useful to start the TerminalEmulator&amp;rsquo;s in a specific directory.</description>
+    </item>
+    <item>
+      <title>Xfce 4.4.0 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.4.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.4.0/</guid>
+      <description>Utilities Library (libxfce4util) Updated translations: Szymon Kałasz (pl) New translations: Geraint Rowlands (cy), Jovan Naumovski (mk) Widget Library (libxfcegui4) Fix file conflict in xfce4-panel and xfce-mcs-plugins by moving the common icon xfce-filemanager to libxfcegui4 (bug #2033). Settings Manager Library (libxfce4mcs) Fix crashing g_ascii_strup() on 64bit platforms (bug #2563). Extensions Library (exo) Further clean up the ExoIconView code and add several small optimization. Import exo-mount utility to drop the dependency on other mount utilities, like pmount and gnome-mount, that don&amp;rsquo;t work reliably, and were often the cause of trouble when mounting in Thunar.</description>
+    </item>
+    <item>
+      <title>Xfce 4.4.1 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.4.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.4.1/</guid>
+      <description>Utilities Library (libxfce4util) Fix invalid g_slice_free1() in XfceRc code (bug #2854). Fix bug when deleting groups. Do not use GMemChunk for XfceRc module as that leaks all of its memory starting with GLib 2.10 (bug #2427). Widget Library (libxfcegui4) Change 2 GPL headers to LGPL. Test for support of -Wall, -Werror and -errwarn=%all (bug #2918). Fix aspect ratio of the pager when using viewports, required for window managers such as Beryl that use multiple viewports within one single workspace.</description>
+    </item>
+    <item>
+      <title>Xfce 4.4.2 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.4.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.4.2/</guid>
+      <description>Utilities Library (libxfce4util) Fix applications sometimes starting on the wrong screen in multihead setups (bug #3667). Fix possible buffer overflow (reported by Vegard Nosum on the ml). Remove trailing parens on AC_INIT version info to work around bug in intltool 0.35.x and 0.36.x. Updated translations: Maximilian Schleiss (nl), Dimitri Gogelia (ka), Pablo Vieira and Jose Vitor Lopes e Silva (pt_BR). New translations: Terje Uriansrud (nb_NO), Nuno Miguel (pt_PT), Manatsawin (th), Tegegne Tefera (am), RPrieditis (lv).</description>
+    </item>
+    <item>
+      <title>Xfce 4.4.3 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.4.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.4.3/</guid>
+      <description>Panel (xfce4-panel) Quite a bit code changed in the dnd code. Mostly to fix a segfault in FreeBSD-amd64, but more problems were discovered and a lot of code was simplified. Don&amp;rsquo;t respond the uri drags, we don&amp;rsquo;t use it and it only causes problems like hiding the panel when a file was dragged over the panel (bug #3815). Fix crash with xrandr 1.2 (bug #3620) Desktop Manager (xfdesktop) Make menu panel plugin honor CustomizeDesktopMenu kiosk setting (bug #1026).</description>
+    </item>
+    <item>
+      <title>Xfce 4.6 ALPHA (4.5.90) Changelog</title>
+      <link>http://localhost:1313/changelogs/4.5.90/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.5.90/</guid>
+      <description>Development tools (xfce4-dev-tools) Add intltool-merge.in patch to xdt-autogen.in to fix merging translations to .desktop keys that have dashes in them. Utility Library (libxfce4util) Do not use GMemChunk for XfceRc due to memory leaks (bug #2427). Fix buglet when deleting XfceRc groups. Fix invalid g_slice_free1() in XfceRc (bug #2854). Add support for function names in debug messages on Solaris (bug #3090). New util functions for setting up POSIX signal handling using pipe(), GIOChannel and the glib main loop.</description>
+    </item>
+    <item>
+      <title>Xfce 4.6 BETA 1 (4.5.91) Changelog</title>
+      <link>http://localhost:1313/changelogs/4.5.91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.5.91/</guid>
+      <description>Development tools (xfce4-dev-tools) Don&amp;rsquo;t try to patch intltool-merge.in for intltool 0.40.x: 0.40.4+ has a fix for the bug, and 0.40.x earlier than that aren&amp;rsquo;t patchable as they run systemwide versions of the scripts. Utility Library (libxfce4util) Fix typo in i18n code (check for &amp;lsquo;/&amp;rsquo; in lang doesn&amp;rsquo;t make sense) Updated translations: Og Maciel (pt_BR), Abel Martín (es) Widget Library (libxfcegui4) Fix compile failure on Darwin due to the &amp;rsquo;environ&amp;rsquo; variable not being available (bug #4432).</description>
+    </item>
+    <item>
+      <title>Xfce 4.6 BETA 2 (4.5.92) Changelog</title>
+      <link>http://localhost:1313/changelogs/4.5.92/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.5.92/</guid>
+      <description>Development tools (xfce4-dev-tools) Add support for git (and git-svn) to the xdt-commit script (bug #4491). Utility Library (libxfce4util) Increment library version to avoid having a 4.6 library version older then the one in 4.4. Place G_GNUC_INTERNAL before function declaration for Sun Studio compatibility (bug #4580). Updated translations: Jari Rahkonen (fi), Abel Martin (es) Widget Library (libxfcegui4) add libxfce4kbd for keyboard-shortcut support Fix format-string vulnerabilities in &amp;lsquo;message_dialog&amp;rsquo; and &amp;lsquo;xfce_confirm&amp;rsquo; Improve SessionManagement support Update translations (de, es, pt_BR, eu, ku, cs, id, fi, sq, nb_NO) Extension Library (exo) Make Preferred Applications dialog pluggable into the new settings manager.</description>
+    </item>
+    <item>
+      <title>Xfce 4.6 BETA 3 (4.5.93) Changelog</title>
+      <link>http://localhost:1313/changelogs/4.5.93/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.5.93/</guid>
+      <description>Development tools (xfce4-dev-tools) Remove unreliable and not really needed intltool auto-patch. Utility Library (libxfce4util) Updated translations: Og Maciel (pt_BR), Abel Martin (es), Maxamilian Schleiss (fr), Daniel Nylander (sv), Masato Hashimoto (jp) Widget Library (libxfcegui4) Review strings and fix markup issues in libxfce4kbd-private. Improve the layout of XfceShortcutDialog. Add more default shortcuts especially for xfwm4. Process primary_text with g_markup_escape_text() in message dialogs. Update translations (be, cz, da, es, fi, fr, gl, hu, ja, nb_NO, sq, sv, tr, uk, zh_CN).</description>
+    </item>
+    <item>
+      <title>Xfce 4.6 RC 1 (4.5.99.1) Changelog</title>
+      <link>http://localhost:1313/changelogs/4.5.99.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.5.99.1/</guid>
+      <description>Utility Library (libxfce4util) Updated translations: da, cs, ja, sv Widget Library (libxfcegui4) Define libglade_module_path, glade_module_path, glade_catalog_path and glade_pixmap_path variables in the pkg-config file. Update translations (ca, da, es, eu, fr, ja, nb_NO, pt_BR, sv, zh_CN) Extension Library (exo) Updated translations: da , es , fr , id , pt_BR , tr. Menu Library (libxfce4menu) Add GNU Free Documentation License 1.1 to COPYING. Update translations: da, eu, fr, ja, nb_NO, pt_BR, sv, zh_CN.</description>
+    </item>
+    <item>
+      <title>Xfce 4.6.0 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.6.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.6.0/</guid>
+      <description>Utility Library (libxfce4util) Updated translations: Finnish, Brazilian Portuguese, Catalan, French, Ukrainian, Polish, Indonesian, English (GB), Norwegian, Simplified Chinese and Turkish. Add missing C++ wrappers in header files (patch by Jens Luedicke). Widget Library (libxfcegui4) Fix translations of libxfce4kbd-private not being used (bug #4784). Fix library ageing (bug #4864). Add default &amp;ldquo;xrandr &amp;ndash;auto&amp;rdquo; for XF86Display so that monitor switching works with recent Xorg. Fix transient mode of XfceShortcutDialog. Add separate library version for libxfce4kbd-private.</description>
+    </item>
+    <item>
+      <title>Xfce 4.6.1 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.6.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.6.1/</guid>
+      <description>Utility Library (libxfce4util) Updated translations: Japanese, Spanish, Galician, Slovenian, Polish, Romanian. Widget Library (libxfcegui4) Updated translations: Polish, Japanese, Galician, Portuguese, Norwegian, Spanish. Extension Library (exo) Quote arguments passed to exo-open (bug #5132). Add gettext() call around two strings which are already as translatable with N_() (bug #5203). Fix broken build due to incomplete integration of the Danish and Galician manual translations. Menu Library (libxfce4menu) Remove gtk+-2.0 from the dependency field of pkg-config file.</description>
+    </item>
+    <item>
+      <title>Xfce 4.6.2 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.6.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.6.2/</guid>
+      <description>Utility Library (libxfce4util) Fix broken translations in applications using libxfce4util. Build fixes for GIT. Fix make distcheck. Translation updates (es, sl, pl, gl, lv, ur, ur_PK, ro, hu, ast, ru, da, ca, pt, nl, fr, uk, kk, zh_CN, ug, cs, eu, fi, id, de, es). Widget Library (libxfcegui4) Note that there have been standalone releases of this packages after 4.6.1, hence the version number 4.6.4 in Xfce 4.6.2.&#xA;Build fixes for GIT.</description>
+    </item>
+    <item>
+      <title>Xfce 4.8.0 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.8/</guid>
+      <description>Extension Library (exo) Add main category to exo-open desktop files. Updated translations: Greek, Croatian, Polish, Turkish, Romanian, French, Arabic. Widgets Library (libxfce4ui) Fix memory corruption in the register function (bug #5892). Translation updates: Romanian. Utility Library (libxfce4util) Translation updates: Arabic, Greek, Polish, Romanian, Turkish. Set xfce_version_string to 4.8.0. Menu Library (garcon) Add exclude rules for toplevel desktop files to sub menus so that these toplevel items don&amp;rsquo;t appear multiple times. Translation updates: Arabic, Catalan (Valencian), Chinese, Chinese (Taiwan), Croatian, Czech, Danish, English (United Kingdom), Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Kazakh, Norwegian Bokmaal, Portuguese (Brazilian), Romanian, Swedish, Turkish, Ukrainian.</description>
+    </item>
+    <item>
+      <title>Xfce 4.8pre1 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.8pre1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.8pre1/</guid>
+      <description>Extension Library (exo) The API version of exo has been changed from 0.3 to 1, to make it easier to bump minor and major version numbers in future releases. To compile against this version of exo, you have to change exo-0.3 to exo-1 in your configure file. This backwards-incompatible change has also been used to remove deprecated APIs or APIs that are now provided by Gtk 2.14 or Glib 2.18.</description>
+    </item>
+    <item>
+      <title>Xfce 4.8pre2 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.8pre2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.8pre2/</guid>
+      <description>Extension Library (exo) Fix opening of URIs with spaces in claws-mail and sylpheed. Fix two @libexecdir@ -&amp;gt; @HELPERDIR@ replacements. Add Icedove helper. Fix Opera helper with Opera newer as 10.60. Add mime types to the exo-open desktop files (bug #6800). Store preferred application in mimeapps.list (bug #6800). Don&amp;rsquo;t build the GIO module after glib 2.27 (bug #6800). Make exo-open more standalone (bug #6573). Translation updates (ug, gl, zh_TW, ru, sk, ja, el, sv, es, eu, hu, pt, kk, it, ja, he, uk, ca, da, id).</description>
+    </item>
+    <item>
+      <title>Xfce 4.8pre3 Changelog</title>
+      <link>http://localhost:1313/changelogs/4.8pre3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/changelogs/4.8pre3/</guid>
+      <description>Extension Library (exo) Set application name for Thunar loop detection. Fix ABI check on ppc (bug #7008). Quote filenames with a space in the desktop editor (bug #6951). Translation updates (zh_CN, pt_BR, de, hu, pt, de, cs, en_GB, nb, sv, ar). Widget Library (libxfce4ui) Fix ABI check in ppc (bug #7005). Update default shortcuts for xfce4-display-settings (bug #7036). Translation updates (pt, he, cs, en_BG, nb, ar). Utility Library (libxfce4util) Fix ABI check on ppc (bug #7004).</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+slides:
+   - name: "Xfce Desktop"
+     title: "The default Xfce Desktop provides a simple and attractive desktop for Unix users."
+     images: [
+        { id: 'slide-desktop-panel', img: 'panel_bg.png' },
+        { id: 'slide-desktop-panel-left', img: 'panel_left.png' },
+        { id: 'slide-desktop-panel-right', img: 'panel_right.png' },
+        { id: 'slide-desktop-icons', img: 'desktop_icons.png' },
+        { id: 'slide-desktop-thunar', img: 'thunar_windows.png' },
+     ]
+   - name: "Settings"
+     title: "The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system."
+     images: [
+        { id: 'slide-settings', img: 'settings.png' },
+     ]
+   - name: "Window Manager"
+     title: "The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!"
+     images: [
+        { id: 'slide-xfwm4', img: 'xfwm4.png' },
+     ]
+   - name: "Panel"
+     title: "The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins."
+     images: [
+        { id: 'slide-panel', img: 'panel.png' },
+        { id: 'slide-panel-notifyd', img: 'notifyd-settings.png' },
+     ]
+   - name: "Applications"
+     title: "Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, task manager, notes plugin and calendar."
+     images: [
+        { id: 'slide-apps', img: 'apps.png' },
+     ]

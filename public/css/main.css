@@ -1,0 +1,40 @@
+:root {
+   --header-bg: #222;
+   --link-color: #06c;
+}
+
+/*
+ *  Hugo defaults
+ *
+ */
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/*
+ *  Elements
+ *
+ */
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+/*
+ *
+ *
+ */
+
+header {
+   width: 100%;
+   background-color: var(--header-bg);
+   display: grid;
+   grid-template-columns: max-content auto;
+}
+   header h1 img {
+      height: 24px;
+   }

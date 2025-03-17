@@ -1,4 +1,67 @@
-baseURL = 'https://xfce.org/'
-languageCode = 'en-us'
-title = 'Xfce Desktop Environment'
-theme = 'xfce'
+baseURL = "https://xfce.org/"
+languageCode = "en-us"
+title = "Xfce Desktop Environment"
+theme = "xfce"
+custom_css = [ "css/reset.css" ]
+
+[menus]
+   [[menus.inter]]
+      name = "Home"
+      pageRef = "/"
+      weight = 10
+   [[menus.inter]]
+      name = "Docs"
+      pageRef = "https://docs.xfce.org/"
+      weight = 20
+   [[menus.inter]]
+      name = "Archive"
+      pageRef = "http://archive.xfce.org/"
+      weight = 30
+   [[menus.inter]]
+      name = "Wiki"
+      pageRef = "https://wiki.xfce.org/"
+      weight = 40
+   [[menus.inter]]
+      name = "Forum"
+      pageRef = "https://forum.xfce.org/"
+      weight = 50
+   [[menus.inter]]
+      name = "Bugs"
+      pageRef = "https://gitlab.xfce.org/"
+      weight = 60
+   [[menus.inter]]
+      name = "Blog"
+      pageRef = "https://blog.xfce.org/"
+      weight = 70
+   [[menus.inter]]
+      name = "Translate"
+      pageRef = "https://docs.xfce.org/contribute/translate/start"
+      weight = 80
+   [[menus.inter]]
+      name = "Git"
+      pageRef = "https://gitlab.xfce.org/"
+      weight = 90
+   [[menus.main]]
+      name = "Home"
+      pageRef = "/"
+      weight = 10
+   [[menus.main]]
+      name = "About"
+      pageRef = "/about"
+      weight = 20
+   [[menus.main]]
+      name = "Download"
+      pageRef = "/download"
+      weight = 30
+   [[menus.main]]
+      name = "Community"
+      pageRef = "/community"
+      weight = 40
+   [[menus.main]]
+      name = "Get Involved"
+      pageRef = "/getinvolved"
+      weight = 50
+   [[menus.main]]
+      name = "Projects"
+      pageRef = "/projects"
+      weight = 60

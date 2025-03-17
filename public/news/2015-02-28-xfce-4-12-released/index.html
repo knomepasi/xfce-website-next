@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Xfce 4.12 released | Xfce Desktop Environment</title>
+
+<link rel="stylesheet" href="/assets/css/main.min.f5f46b1b2c6ffe98b4ed72cca01d66cf96e5e19cb773cd0a8160808f2e591064.css" media="all">
+
+
+      <script src="/js/main.js"></script>
+
+
+   </head>
+   <body>
+      <header>
+         
+<h1>
+   <img src="/images/xfce.svg" alt="Xfce" />
+</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a>Docs</a>
+    </li>
+    <li>
+      <a>Archive</a>
+    </li>
+    <li>
+      <a>Wiki</a>
+    </li>
+    <li>
+      <a>Forum</a>
+    </li>
+    <li>
+      <a>Bugs</a>
+    </li>
+    <li>
+      <a>Blog</a>
+    </li>
+    <li>
+      <a>Translate</a>
+    </li>
+    <li>
+      <a>Git</a>
+    </li>
+    </ul>
+  </nav>
+
+
+      </header>
+      <section class="nav">
+         <div class="dyn">
+            
+            
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    <li>
+      <a href="/download/">Download</a>
+    </li>
+    <li>
+      <a href="/community/">Community</a>
+    </li>
+    <li>
+      <a>Get Involved</a>
+    </li>
+    <li>
+      <a>Projects</a>
+    </li>
+    </ul>
+  </nav>
+
+         </div>
+      </section>
+      <main>
+         <div class="dyn container">
+            
+   <section class="main">
+      <h1>Xfce 4.12 released</h1>
+
+      <p>Xfce 4.12 is be the best release ever (yes, we like to party!)!<!-- raw HTML omitted -->
+Source: Internet comments.</p>
+<p>Today, after 2 years and 10 months of work, we are pleased to announce the release of the Xfce desktop 4.12, a new stable version that supersedes Xfce 4.10.</p>
+<p>This long period can only be explained by how awesome Xfce 4.10 was. But as all things, it needed some refreshing -  and for that we saw lots of new contributors providing valuable feedback, features and bugfixes. As always, Xfce follows its steady pace of evolution without revolution that seems to match our users&rsquo; needs.</p>
+<p>In this 4.12 cycle, we mainly focused on polishing our user experience on the desktop and window manager, and on updating some components to take advantage of newly available technologies.</p>
+<p>The main highlights of this release are:</p>
+<ul>
+<li>The window manager gained a new themable Alt+Tab dialog with optional windows preview and a list mode. Initial Client side decoration support was implemented, window tiling mode was improved providing support for corner-tiling, and a new zooming mode was added. A HiDPI Xfwm theme was also added.</li>
+<li>The panel can now intelligently hide itself, supports Gtk3 plugins, and saw lots of its third-party plugins updated to take full advantage of the features added in 4.10.</li>
+<li>The desktop has a new wallpaper settings dialog, per workspace wallpaper support, and better multi-monitor handling. It also supports displaying folder cover art and emblems on icons now.</li>
+<li>Our session manager was updated to use logind and/or upower if available for hibernate/suspend support. For portability and to respect our users&rsquo; choices, fallback modes were implemented relying on os-specific backends.</li>
+<li>Support for multi-monitor use was improved in a new display settings dialog and a quick setup popup on monitor plugging.</li>
+<li>The appearance dialog now showcases previews for icons and themes.</li>
+<li>Xfsettingsd now supports libinput.</li>
+<li>Power management was not forgotten: A new panel plugin was created, logind/upower support was added to handle battery/lid/brightness events, and locking via light-locker was implemented. The settings dialog was also revamped, and support for X11 screenblanking was added.</li>
+<li>Our file manager, the beloved Thunar, saw an insane amount of improvements: tab support, tons of bug fixes, speed-ups, key shortcuts for custom actions, better naming of file copies and links, nice freespace bar in properties, tweaks for the renamer and other dialogs, improved keyboard navigation, fixes for the treeview pane, better wallpaper support, Gtk3 bookmarks support, multiple file properties&hellip; need we say more?</li>
+<li>To prepare the future of Xfce with Gtk3, which no longer requires theme engines, we are stopping the development of our Gtk theme engine, and dropping our Gtk3 engine - theme makers, please update your themes  to CSS if you want them to work on the next Xfce version.</li>
+<li>Due to gstreamer1.0 having dropped the mixer-interface entirely, and xfce4-mixer and xfce4-volumed relying on this interface with gstreamer0.10, our mixer application and volume daemon cannot be ported to 1.0 and are consequently not maintained anymore.</li>
+</ul>
+<p>Xfce wouldn&rsquo;t be what it is right now without all its goodies. In this area, we also saw a flurry of activity, most notably:</p>
+<ul>
+<li>Xfburn gained BluRay Disc burning support.</li>
+<li>Task manager UI was totally revamped, and got ported to Gtk3.</li>
+<li>Parole&rsquo;s UI was totally redone, parts of it rewritten with many features added. Furthermore it was ported to Gtk3 and gstreamer1.0.</li>
+<li>Mousepad was totally rewritten and got an initial port to Gtk3.</li>
+<li>Imgur.com support was added to the screenshooter.</li>
+<li>A new GNOME-Shell-like dashboard named xfdashboard is now available.</li>
+<li>A new alternative menu for the panel named whiskermenu was added.</li>
+<li>The GNOME2 hardware monitor plugin was ported to our panel.</li>
+<li>Weather plugin got a totally new user interface with powerful customization options and provides tons of detailed information.</li>
+<li>Eyes plugin uses 3D coordinates to calculate its eye position, so even more sometimes scary, sometimes funny eyes will spy on you!</li>
+<li>Netload plugin works with the new udev net interface names and can be configured to show transfer rates in the panel.</li>
+<li>Clipboard manager plugin optionally displays a QR code.</li>
+<li>Cpufreq plugin now supports the intel pstate driver and can adapt better for different panel sizes and information displayed.</li>
+<li>Nearly all plugins have been improved to give the same look and feel and to support the new deskbar panel mode.</li>
+</ul>
+<p>An online tour of the changes in Xfce 4.12 can be viewed here:</p>
+<p><!-- raw HTML omitted --><a href="https://xfce.org/about/tour">https://xfce.org/about/tour</a><!-- raw HTML omitted --></p>
+<p>A detailed overview of the changes between Xfce 4.10 and Xfce 4.12 releases can be found on the following page:</p>
+<p><!-- raw HTML omitted --><a href="https://xfce.org/download/changelogs">https://xfce.org/download/changelogs</a><!-- raw HTML omitted --></p>
+<p>This release can be downloaded either as a set of individual packages or as a single fat tarball including all these individual versions:</p>
+<p><!-- raw HTML omitted --><a href="http://archive.xfce.org/xfce/4.12">http://archive.xfce.org/xfce/4.12</a><!-- raw HTML omitted --></p>
+<p>A warm thank you all the contributors, translators and packagers for your efforts in making this release possible. We would also like to thank our fantastic users and occasional contributors who submitted bug reports, helped us find issues and sometimes provided patches. We are currently reviewing all patches sent to us and will include many more fixes to Xfce in the next release. We would also like to thank the many people who donated money to our project via Bounty Source. This will help us meet and hack on Xfce in the future!</p>
+<p>As always, we welcome everyone who would like to contribute to the development of Xfce! You can either <!-- raw HTML omitted -->test Xfce<!-- raw HTML omitted --> and <!-- raw HTML omitted -->report bugs<!-- raw HTML omitted -->, you can help us with <!-- raw HTML omitted -->translations<!-- raw HTML omitted --> and <!-- raw HTML omitted -->documentation<!-- raw HTML omitted -->, with <!-- raw HTML omitted -->usability and user experience<!-- raw HTML omitted --> by packaging Xfce into your distribution, and by <!-- raw HTML omitted -->submitting patches<!-- raw HTML omitted --> or entirely new features! You can get in touch with us on the Freenode IRC channel #xfce-dev and our <!-- raw HTML omitted -->mailing list<!-- raw HTML omitted -->.</p>
+<p>Best regards,<!-- raw HTML omitted -->
+The Xfce development team</p>
+
+   </section>
+
+   
+      <aside>
+   <h2>Xfce 4.12</h2>
+   <nav>
+      <a href="/tour/4.12/">Tour</a><br />
+      <a href="/changelogs/4.12/">Changelog</a><br />
+      <br />
+      <strong>News</strong><br />
+      
+         <a href="/news/2015-02-28-xfce-4-12-released/">Xfce 4.12 released</a>
+      
+   </nav>
+</aside>
+
+   
+
+         </div>
+      </main>
+      <footer>
+         <div class="dyn">
+            <p>Copyright 2003&mdash;2024 <a href="https://xfce.org/about/credits">Xfce Development Team</a>. Hosted by <a href="https://gandi.net">Gandi</a>.</p>
+
+         </div>
+      </footer>
+   </body>
+</html>

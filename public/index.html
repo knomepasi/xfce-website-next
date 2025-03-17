@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+   <head>
+	<meta name="generator" content="Hugo 0.123.7"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+      <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Xfce Desktop Environment</title>
+
+<link rel="stylesheet" href="/assets/css/main.min.f5f46b1b2c6ffe98b4ed72cca01d66cf96e5e19cb773cd0a8160808f2e591064.css" media="all">
+
+
+      <script src="/js/main.js"></script>
+
+
+   </head>
+   <body>
+      <header>
+         
+<h1>
+   <img src="/images/xfce.svg" alt="Xfce" />
+</h1>
+
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a>Docs</a>
+    </li>
+    <li>
+      <a>Archive</a>
+    </li>
+    <li>
+      <a>Wiki</a>
+    </li>
+    <li>
+      <a>Forum</a>
+    </li>
+    <li>
+      <a>Bugs</a>
+    </li>
+    <li>
+      <a>Blog</a>
+    </li>
+    <li>
+      <a>Translate</a>
+    </li>
+    <li>
+      <a>Git</a>
+    </li>
+    </ul>
+  </nav>
+
+
+      </header>
+      <section class="nav">
+         <div class="dyn">
+            
+            
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    <li>
+      <a href="/download/">Download</a>
+    </li>
+    <li>
+      <a href="/community/">Community</a>
+    </li>
+    <li>
+      <a>Get Involved</a>
+    </li>
+    <li>
+      <a>Projects</a>
+    </li>
+    </ul>
+  </nav>
+
+         </div>
+      </section>
+      <main>
+         <div class="dyn container">
+            
+  
+<div id="slidewrap">
+   <div id="slide">
+      
+         <div alt="Xfce Desktop" title="The default Xfce Desktop provides a simple and attractive desktop for Unix users.">
+            
+               
+               
+               <span id="slide-desktop-panel" style="background-image: url(slider/panel_bg.png);"></span>
+            
+               
+               
+               <span id="slide-desktop-panel-left" style="background-image: url(slider/panel_left.png);"></span>
+            
+               
+               
+               <span id="slide-desktop-panel-right" style="background-image: url(slider/panel_right.png);"></span>
+            
+               
+               
+               <span id="slide-desktop-icons" style="background-image: url(slider/desktop_icons.png);"></span>
+            
+               
+               
+               <span id="slide-desktop-thunar" style="background-image: url(slider/thunar_windows.png);"></span>
+            
+         </div>
+      
+         <div alt="Settings" title="The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.">
+            
+               
+               
+               <span id="slide-settings" style="background-image: url(slider/settings.png);"></span>
+            
+         </div>
+      
+         <div alt="Window Manager" title="The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!">
+            
+               
+               
+               <span id="slide-xfwm4" style="background-image: url(slider/xfwm4.png);"></span>
+            
+         </div>
+      
+         <div alt="Panel" title="The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins.">
+            
+               
+               
+               <span id="slide-panel" style="background-image: url(slider/panel.png);"></span>
+            
+               
+               
+               <span id="slide-panel-notifyd" style="background-image: url(slider/notifyd-settings.png);"></span>
+            
+         </div>
+      
+         <div alt="Applications" title="Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, task manager, notes plugin and calendar.">
+            
+               
+               
+               <span id="slide-apps" style="background-image: url(slider/apps.png);"></span>
+            
+         </div>
+      
+   </div>
+   <div id="slidenav"></div>
+</div>
+
+<style>
+   #slidewrap {
+      margin-top:calc(-1 * var(--pad-large));
+      margin-bottom:var(--pad-large);
+      position:relative;
+      background-color:#208c18;
+      background-image:url(slider/bg.jpg);
+      background-size:auto 185px;
+      margin-left:calc(-1 * var(--pad-large));
+      width:calc(100% + 2 * var(--pad-large));
+   }
+      #slide {
+         position:relative;
+         overflow:hidden;
+         width:100%;
+         height:400px;
+         cursor:default;
+         margin:auto;
+      }
+         #slide div {
+            position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:400px;
+            text-align:center;
+            transform:translateX(100%);
+            background-size:contain;
+            background-repeat:no-repeat;
+            background-position:50% 50%;
+            background-size:auto 400px;
+         }
+            #slide div:first-child {
+              transform:translateX(0%);
+              z-index:1000;
+            }
+            #slide .current {
+              animation:slide-in 1s forwards;
+            }
+            #slide .prev {
+              animation:slide-out 1s forwards;
+            }
+            #slide div span {
+              display:block;
+              position:absolute;
+              z-index:1;
+              top:0;
+              left:0;
+              height:100%;
+              width:100%;
+              background-color:transparent;
+              background-position:0 0;
+              background-repeat:no-repeat;
+            }
+
+   #slide div span#slide-desktop-panel {
+      background-repeat:repeat-x;
+   }
+   #slide div span#slide-desktop-panel-left {
+      z-index:2;
+   }
+   #slide div span#slide-desktop-panel-right {
+      z-index:2;
+      background-position:100% 0;
+   }
+   #slide div span#slide-desktop-icons {
+      background-position:42px 54px;
+   }
+   #slide div span#slide-desktop-thunar {
+      background-position:400px 36px;
+   }
+   #slide div span#slide-panel {
+      background-position:40% 10px;
+      z-index:2;
+   }
+   #slide div span#slide-panel-notifyd {
+      background-position:95% 100%;
+   }
+
+   @keyframes slide-in {
+     0% {
+       -ms-transform:translateX(100%);
+       transform:translateX(100%);
+     }
+     100% {
+       -ms-transform:translateX(0%);
+       transform:translateX(0%);
+     }
+   }
+   @keyframes slide-out {
+     0% {
+       -ms-transform:translateX(0%);
+       transform:translateX(0%);
+     }
+     100% {
+       -ms-transform:translateX(-100%);
+       transform:translateX(-100%);
+     }
+   }
+
+   #slidenav {
+      margin:0 auto;
+      padding:0;
+      line-height:0;
+      background-color:#fff;
+      text-align:center;
+   }
+      #slidenav a {
+         display:inline-block;
+         border:1px solid #bcbcbc;
+         width:12px;
+         height:12px;
+         cursor:pointer;
+         margin:12px 6px;
+         background:#dcdcdc;
+         border-radius:7px;
+         transition:background 0.2s linear;
+      }
+         #slidenav a:hover {
+            background:#bababa;
+         }
+         #slidenav a.current {
+            background:#acacac;
+            border-color:#5f5f5f;
+         }
+</style>
+<script type="text/javascript">
+   var s_timeout=10000;
+   var s_timer=window.setInterval(s_adv,s_timeout);
+   var slider=document.getElementById('slide');
+   var slides=slider.getElementsByTagName('div');
+   var buttonhtml='';
+   var s_cur=0;
+   for(var i=0;i<slides.length;i++) {
+   	buttonhtml+='<a onclick="s_adv('+i+')"></a>';
+   }
+   document.getElementById('slidenav').innerHTML=buttonhtml;
+   var navitems=document.getElementById('slidenav').getElementsByTagName('a');
+   navitems.item(s_cur).className='current';
+   function s_adv(pos){
+   	var cur=slider.getElementsByClassName('current').item(0);
+   	if(cur==null){
+   		cur=slides.item(0);
+   		if(pos==0){
+   			return;
+   		}
+   	}
+   	navitems.item(s_cur).className='';
+   	if(pos!=null){
+   		next=slides.item(pos);
+   		window.clearTimeout(s_timer);
+   		s_timer=window.setInterval(s_adv,s_timeout);
+   		s_cur=pos;
+   	} else {
+   		next=cur.nextElementSibling;
+   		s_cur+=1;
+   		if(next==null) {
+   			next=slides.item(0);
+   			s_cur=0;
+   		}
+   	}
+   	cur.className='prev';
+   	next.className='current';
+   	navitems.item(s_cur).className='current';
+   }
+</script>
+
+
+<section class="columns-3">
+   <div>
+      <h2>What is Xfce?</h2>
+      <p>Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.</p>
+
+      <ul>
+         <li><a href="/download">Download</a> – get the source tarballs</li>
+         <li><a href="/download/changelogs">Changelog</a> - read the full release notes</li>
+         <li><a href="/screenshots">Screenshots</a> - see examples of Xfce desktops</li>
+      </ul>
+   </div>
+   <div>
+      <h2>On the Xfce Blog</h2>
+   </div>
+   <div>
+      <h2>Xfce Release Updates</h2>
+      <section class="latest-news">
+         
+            <article>
+               <p>
+                  <h3>Xfce 4.18 released</h3>
+                  
+                     After almost two years of work, we are happy to announce the release of Xfce 4.18!
+                  
+                  <a href="/news/2022-12-15-xfce-4-18-released/">Learn More &rarr;</a>
+               </p>
+            </article>
+         
+            <article>
+               <p>
+                  <h3>Xfce 4.16 released</h3>
+                  
+                     Today, after 1 year and 4 months of work, we are happy to announce the release of the Xfce desktop 4.16, a new stable version that supersedes Xfce 4.14.
+                  
+                  <a href="/news/2020-12-22-xfce-4-16-released/">Learn More &rarr;</a>
+               </p>
+            </article>
+         
+      </section>
+
+   </div>
+</section>
+
+
+         </div>
+      </main>
+      <footer>
+         <div class="dyn">
+            <p>Copyright 2003&mdash;2024 <a href="https://xfce.org/about/credits">Xfce Development Team</a>. Hosted by <a href="https://gandi.net">Gandi</a>.</p>
+
+         </div>
+      </footer>
+   </body>
+</html>
