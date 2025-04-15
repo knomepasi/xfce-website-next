@@ -7,7 +7,7 @@
       {{ end }}
       {{ range (where (where .Site.RegularPages "Type" "changelogs") ".Params.version" "==" .Params.version) }}
          <a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
-         {{ end }}
+      {{ end }}
       <br />
       <strong>News</strong><br />
       {{ range (where (where .Site.RegularPages "Type" "news") ".Params.version" "==" .Params.version) }}

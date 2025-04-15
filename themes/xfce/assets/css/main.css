@@ -70,7 +70,7 @@ figure img { max-width: 100%; }
    container-type: inline-size;
 }
 
-[class^="columns"] {
+[class*="columns"] {
    display: grid;
    grid-gap: 0 var(--pad-large);
 }
@@ -79,6 +79,7 @@ figure img { max-width: 100%; }
    [class^="columns"] > * > :first-child {
       margin-top: 0;
    }
+   .columns-2 { grid-template-columns: repeat(2,1fr); }
    .columns-3 { grid-template-columns: repeat(3,1fr); }
 }
 
@@ -174,3 +175,14 @@ footer .dyn {
 
 .latest-news { font-size: 95%; }
    .latest-news h3 { margin-bottom: 0; }
+
+.components {
+   grid-gap: var(--pad-medium) var(--pad-large);
+}
+   .components .item {
+      display: grid;
+      grid-template-columns: 48px auto;
+      grid-gap: var(--pad-medium);
+   }
+      .components .item h3 { margin: 0; }
+      .components .item :last-child { margin-bottom: 0; }
