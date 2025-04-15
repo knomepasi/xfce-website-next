@@ -1,6 +1,6 @@
 ---
 title:     "Xfce 4.6 tour"
-version:   "4.16"
+version:   "4.6"
 ---
 
 The long awaited 4.6.0 version of the Xfce Desktop Environment is finally available. We will try to highlight some of the new features which have been added since the last stable release.

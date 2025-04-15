@@ -1,7 +1,7 @@
 ---
 title:     "Xfce 4.6.0 released"
 date:      2009-04-28
-version:   "4.6.0"
+version:   "4.6"
 author:    "Release Manager"
 timestamp: 1235692800
 ---
