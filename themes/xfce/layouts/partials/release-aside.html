@@ -1,0 +1,12 @@
+<aside>
+   <h2>Xfce {{ .Params.version }}</h2>
+   <nav>
+      <a href="/tour/{{ .Params.version }}/">Tour</a><br />
+      <a href="/changelogs/{{ .Params.version }}/">Changelog</a><br />
+      <br />
+      <strong>News</strong><br />
+      {{ range (where (where .Site.RegularPages "Type" "news") ".Params.version" "==" .Params.version) }}
+         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+   </nav>
+</aside>

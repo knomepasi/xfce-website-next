@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
-  </footer>
-</body>
+   <head>
+      {{ partial "head.html" . }}
+   </head>
+   <body>
+      <header>
+         {{ partial "header.html" . }}
+      </header>
+      <section class="nav">
+         <div class="dyn">
+            <!--{{ $logo := resources.Get "images/xfce_logo.svg" }}
+            <img src="{{ $logo.RelPermalink }}" alt="Xfce" /> -->
+            {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+         </div>
+      </section>
+      <main>
+         <div class="dyn container">
+            {{ block "main" . }}{{ end }}
+         </div>
+      </main>
+      <footer>
+         <div class="dyn">
+            {{ partial "footer.html" . }}
+         </div>
+      </footer>
+   </body>
 </html>
