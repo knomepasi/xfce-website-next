@@ -1,0 +1,3 @@
+{{ $ver := .Get "version" }}
+{{ $label := or (.Get "label") ("Xfce {{ $ver }} tour") }}
+<a href="/tour/{{ $ver }}/">{{ $label }}</a>

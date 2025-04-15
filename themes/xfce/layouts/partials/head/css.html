@@ -1,0 +1,2 @@
+{{- $CSS := slice (resources.Get "css/reset.css") (resources.Get "css/main.css") | resources.Concat "assets/css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $CSS.RelPermalink }}" media="all">
