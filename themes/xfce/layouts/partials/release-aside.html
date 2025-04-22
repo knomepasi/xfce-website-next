@@ -1,17 +1,15 @@
-<aside>
-   <h2>Xfce {{ .Params.version }}</h2>
-   <nav>
-      <a href="https://archive.xfce.org/xfce/{{ .Params.version }}/">Download</a><br />
-      {{ range (where (where .Site.RegularPages "Type" "tour") ".Params.version" "==" .Params.version) }}
-         <a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
-      {{ end }}
-      {{ range (where (where .Site.RegularPages "Type" "changelogs") ".Params.version" "==" .Params.version) }}
-         <a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
-      {{ end }}
-      <br />
-      <strong>News</strong><br />
-      {{ range (where (where .Site.RegularPages "Type" "news") ".Params.version" "==" .Params.version) }}
-         <a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
-      {{ end }}
-   </nav>
-</aside>
+<h2>Xfce {{ .Params.version }}</h2>
+<nav>
+   <a href="https://archive.xfce.org/xfce/{{ .Params.version }}/">Download</a><br />
+   {{ range (where (where .Site.RegularPages "Type" "tour") ".Params.version" "==" .Params.version) }}
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
+   {{ end }}
+   {{ range (where (where .Site.RegularPages "Type" "changelogs") ".Params.version" "==" .Params.version) }}
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
+   {{ end }}
+   <br />
+   <strong>News</strong><br />
+   {{ range (where (where .Site.RegularPages "Type" "news") ".Params.version" "==" .Params.version) }}
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a><br />
+   {{ end }}
+</nav>

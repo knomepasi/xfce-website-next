@@ -1,0 +1,5 @@
+<ul class="credits {{ if (.Get 1) }}{{ (.Get 1) }}{{ end }}">
+   {{ range index .Site.Data.credits (.Get 0) }}
+      <li>{{ .name }}{{ if .email }} &lt;{{ .email }}&gt;{{ end }}</li>
+   {{ end }}
+</ul>

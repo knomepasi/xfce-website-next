@@ -1,0 +1,14 @@
+<h2>Related Pages</h2>
+
+<ul class="related">
+   {{ with .Parent }}
+      {{ if ne .RelPermalink "/" }}
+         <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}{{ if .Description }} <span>&mdash; {{ .Description }}</span>{{ end }}</a></li>
+      {{ end }}
+   {{ end }}
+   {{ range .Pages.GroupBy "Weight" "asc" }}
+      {{ range .Pages.ByTitle }}
+         <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}{{ if .Description }} <span>&mdash; {{ .Description }}</span>{{ end }}</a></li>
+      {{ end }}
+   {{ end }}
+</ul>

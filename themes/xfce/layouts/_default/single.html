@@ -5,7 +5,10 @@
       {{ .Content }}
    </section>
 
-   {{ if .Params.version }}
-      {{ partial "release-aside.html" . }}
-   {{ end }}
+   <aside class="related">
+      {{ if .Params.version }}
+         {{ partial "release-aside.html" . }}
+      {{ end }}
+      {{ partial "related-aside.html" . }}
+   </aside>
 {{ end }}
