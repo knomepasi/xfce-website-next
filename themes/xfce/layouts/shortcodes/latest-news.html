@@ -6,7 +6,7 @@
             {{ range first 1 (split .Content "</p>") }}
                {{ . | plainify | strings.Truncate 200 }}
             {{ end }}
-            <a href="{{ .RelPermalink }}">Learn More &rarr;</a>
+            <a href="{{ .RelPermalink }}">Learn&nbsp;More&nbsp;&rarr;</a>
          </p>
       </article>
    {{ end }}
