@@ -45,7 +45,7 @@ body {
    .dyn > :first-child { margin-top: 0; }
    .dyn > :last-child { margin-bottom: 0; }
 
-p, blockquote, pre, address, dl, ol, ul, form, table, article {
+p, blockquote, pre, address, dl, ol, ul, form, table, article, section {
    margin-bottom: var(--pad-medium);
 }
 
