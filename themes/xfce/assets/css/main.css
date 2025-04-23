@@ -45,7 +45,7 @@ body {
    .dyn > :first-child { margin-top: 0; }
    .dyn > :last-child { margin-bottom: 0; }
 
-p, blockquote, pre, address, dl, ol, ul, form, table, article, section {
+p, blockquote, pre, address, dl, ol, ul, form, table, article, main section {
    margin-bottom: var(--pad-medium);
 }
 
@@ -141,7 +141,7 @@ section.nav {
    section.nav .dyn {
 /*      display: grid;
       grid-template-columns: 80px auto; */
-      padding: 0 var(--pad-large);
+      padding: 0 calc(var(--pad-large) - var(--pad-medium));
    }
    section.nav img {
       width: 100%;
