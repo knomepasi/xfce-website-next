@@ -61,7 +61,3 @@ custom_css = [ "css/reset.css" ]
       name = "Get Involved"
       pageRef = "/getinvolved"
       weight = 50
-   [[menus.main]]
-      name = "Projects"
-      pageRef = "/projects"
-      weight = 60
