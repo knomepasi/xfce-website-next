@@ -72,7 +72,33 @@ dl dt { font-weight: 600; }
    dl dt:not(:first-child) { margin-top: var(--pad-small); }
 dl dd { margin-left: 2em; }
 
-figure img { max-width: 100%; }
+figure {
+  width: 75%;
+  margin: 2em auto;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  color: #333;
+  padding: 0.5em;
+  text-align: center;
+  font-weight: bold;
+}
+figure div {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 0.5em;
+}
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+figure figcaption {
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  font-size: 80%;
+}
+figure figcaption p { margin: 0 }
 
 /*
  *
