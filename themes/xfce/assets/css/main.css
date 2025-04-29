@@ -171,16 +171,12 @@ section.nav {
    font-weight: 600;
    font-size: 110%;
 }
-   section.nav .dyn {
-/*      display: grid;
-      grid-template-columns: 80px auto; */
-      padding: 0 calc(var(--pad-large) - var(--pad-medium));
-   }
    section.nav img {
       width: 100%;
    }
    section.nav ul {
       margin-bottom: 0;
+      margin: 0;
    }
       section.nav li {
          display: inline-block;
