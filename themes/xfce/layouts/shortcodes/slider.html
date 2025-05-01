@@ -16,9 +16,8 @@
          margin-top:calc(-1 * var(--pad-large));
          margin-bottom:var(--pad-large);
          position:relative;
-         background-color:#208c18;
+         background-color:transparent;
          background-image:url(slider/bg.jpg);
-         background-size:auto 185px;
          margin-left:calc(-1 * var(--pad-large));
          width:calc(100% + 2 * var(--pad-large));
       }
@@ -58,7 +57,7 @@
                  position:absolute;
                  z-index:1;
                  top:0;
-                 left:0;
+                 left:-100px;
                  height:100%;
                  width:100%;
                  background-color:transparent;
@@ -84,7 +83,7 @@
       }
       #slide div span#slide-panel {
          background-position:40% 10px;
-         z-index:2;
+         z-index:1;
       }
       #slide div span#slide-panel-notifyd {
          background-position:95% 100%;

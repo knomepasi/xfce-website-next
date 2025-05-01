@@ -1,5 +1,6 @@
 {{ $image := .Get "src" }}
 <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+    <div>
     {{ if (.Get "link") }}<a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>{{ end }}
         {{ if (findRE "(^|:)//" $image) -}} <!-- If image link is a URL with protocol or two leading slashes, use just that unmodified. -->
             <img src="{{ $image }}"
@@ -25,6 +26,7 @@
             {{- with .Get "width" }} width="{{ . }}"{{ end -}}
             {{- with .Get "height" }} height="{{ . }}"{{ end -}}/> <!-- Closing img tag -->
         {{- if (.Get "link") }}</a>{{ end -}}
+    </div>
         {{- if or (or (.Get "title") (.Get "caption")) (.Get "attr") -}}
             <figcaption>
                 {{ if (or (.Get "caption") (.Get "attr")) }}<p>
