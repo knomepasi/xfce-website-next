@@ -34,7 +34,7 @@ html {
 }
 
 body {
-   font-family: sans-serif;
+   font-family: "Bitstream Vera Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
    line-height: 1.5em;
 }
 
@@ -169,7 +169,7 @@ header {
 section.nav {
    padding: var(--pad-small) 0;
    font-weight: 600;
-   font-size: 110%;
+   font-size: 90%;
 }
    section.nav img {
       width: 100%;
@@ -188,7 +188,7 @@ section.nav {
 
 @media screen and (min-width: 1024px) {
    section.nav {
-      padding-block: var(--pad-medium);
+      padding-block: var(--pad-tiny);
    }
    section.nav li a {
       padding: var(--pad-medium);
@@ -247,6 +247,8 @@ main {
       }
 
 footer {
+   color: #999;
+   text-align: center;
    font-size: 90%;
    margin-block: 0.5rem;
 }
